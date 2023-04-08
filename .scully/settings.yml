@@ -1,0 +1,11 @@
+identifier: l4g06emfa6j1i7ka
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: scully-try-out
+homeFolder: C:\PERSONAL\Blog\blogtryouts\scully-try-out
+distFolder: dist/scully-try-out
+outDir: C:\PERSONAL\Blog\blogtryouts\scully-try-out\dist\static
+handle404: ''
+allowErrorCollect: false
