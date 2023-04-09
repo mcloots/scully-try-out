@@ -5,5 +5,11 @@ export const config: ScullyConfig = {
   projectName: 'scully-try-out', //name of project
   outDir: './dist/static', // directory for scully build artifacts
   defaultPostRenderers: [],
-  routes: {},
+  routes: {
+    '/blog/:slug': {
+      type: 'contentFolder',
+      slug: {
+        folder: "./blog"
+      }
+    },},
 };

@@ -1,0 +1,9 @@
+<section class="blog-list px-3 py-3 p-md-5">
+    <div class="container">
+      <ng-container *ngFor="let r of routes$ | async; let i = index">
+        <div class="item mb-3">
+          <app-blog-item [route]="r"></app-blog-item>
+        </div>
+      </ng-container>
+    </div>
+  </section>

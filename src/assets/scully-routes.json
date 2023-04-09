@@ -1,1 +1,1 @@
-[{"route":"/"}]
+[{"route":"/blog/2023-04-08-blog","title":"2023-04-08-blog","description":"blog description","published":true,"publishedAt":"2023-04-01T15:00:00.000Z","sourceFile":"2023-04-08-blog.md"},{"route":"/blog/blogpost-2","title":"Blogpost 2","description":"blog post 2 description","published":true,"publishedAt":"2023-04-07T15:00:00.000Z","sourceFile":"blogpost-2.md"},{"route":"/"}]

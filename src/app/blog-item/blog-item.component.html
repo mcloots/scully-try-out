@@ -1,0 +1,10 @@
+<div class="media">
+    <div class="media-body">
+        <h3 class="title mb-1"><a class="link-dark" [routerLink]="route?.route">{{route?.title}}</a></h3>
+        <div class="meta mb-1">
+            <span class="date" *ngIf="route?.publishedAt">{{route?.publishedAt | date}}</span>
+        </div>
+        <div class="intro">{{route?.description}}</div>
+        <a class="link-dark" [routerLink]="route?.route">See more &rarr;</a>
+    </div>
+</div>
