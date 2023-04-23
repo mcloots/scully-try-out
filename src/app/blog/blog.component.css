@@ -18,3 +18,9 @@ img {
   margin-bottom: 20px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
+
+pre code {
+  display: inline-block;  /* we want to give a 'fixed' width to the element */
+  width: 80vw; /* the width is 80% of the available width */
+  overflow-x: auto; /* if the content is wider we show a scroll bar */
+}
