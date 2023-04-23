@@ -6,6 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "scully": "npx scully --project scully-try-out",
+    "scully-scan": "npx scully --scanRoutes --project scully-try-out",
+    "scully-serve": "npx scully serve --project scully-try-out",
+    "go": "npm run build && npm run scully && npm run scully-serve",
     "test": "ng test"
   },
   "private": true,
